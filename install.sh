@@ -8,6 +8,10 @@ get_local_ip() {
 # Get the local IP address
 local_ip=$(get_local_ip)
 
+# Git clone the repo
+echo "Clonning Repo"
+git clone "https://github.com/SGlombicki/AutoGItCI.git" /updateservice
+
 # Confirm the IP address with the user
 echo "The detected local IP address is: $local_ip"
 read -p "Is this correct? (y/n): " confirm_ip
