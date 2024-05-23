@@ -4,7 +4,7 @@ This project automaticly updates any project on remote server when any git push 
 ## Install
 Use the install.sh script to setup on an ubuntu virtual machine. It will create the necessary services and directories.
 ```
-curl -s https://raw.githubusercontent.com/USCC/USCC-Bot/master/install.sh | bash 
+curl -s https://raw.githubusercontent.com/SGlombicki/AutoGItCI/master/install.sh | bash 
 ```
 
 ## Config
